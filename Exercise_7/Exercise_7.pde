@@ -5,7 +5,7 @@ PGraphics graphics;
 
 void setup() {
  size(800,800,P2D);
- img = loadImage("Stunned.jpg");
+ img = loadImage("Stunned.jpg");// image source: https://i.imgur.com/qvw5rlQ.png
  graphics = createGraphics(img.width,img.height,P2D);
  e1 = new Effect(400,255);
  e2 = new Effect(200,255);
