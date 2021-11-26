@@ -28,14 +28,14 @@ class Effect {
     }
   }
   
-  void blurGraphics() {
+  void thresholdGraphics() {
     fill(0,greenX,0);
     
     if(mousePressed && mouseY < 650 && mouseY > 550 && mouseX < circleX+50 && mouseX > circleX-50){ 
       pushMatrix();
       graphics.beginDraw();
       graphics.image(img,0,0);
-      graphics.filter(BLUR);
+      graphics.filter(THRESHOLD);
       graphics.endDraw();
       image(graphics,65,30);
       popMatrix();

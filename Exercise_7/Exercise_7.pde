@@ -20,7 +20,7 @@ void draw() {
   e1.grayGraphics();
   e1.circles();
   
-  e2.blurGraphics();
+  e2.thresholdGraphics();
   e2.circles();
   
   e3.invertGraphics();
